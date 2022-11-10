@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultado_credito">
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="71dp"
+        android:backgroundTint="@color/verde_claro"
+        android:onClick="Salir"
+        android:text="@string/bntSalir"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/twTitulo_Re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/Titulo_resultado"
+        android:textColor="@color/black"
+        android:textSize="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teT_intereses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/T_interes"
+        app:layout_constraintBottom_toTopOf="@+id/twT_uf"
+        app:layout_constraintEnd_toEndOf="@+id/twT_uf"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="@+id/twT_uf" />
+
+    <TextView
+        android:id="@+id/twM_uf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/montoUf"
+        app:layout_constraintBottom_toTopOf="@+id/twS_Desgravame"
+        app:layout_constraintEnd_toEndOf="@+id/twS_Desgravame"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="@+id/twS_Desgravame" />
+
+    <TextView
+        android:id="@+id/twT_uf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/T_UF"
+        app:layout_constraintBottom_toTopOf="@+id/twT_peso"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <TextView
+        android:id="@+id/twS_incendio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/seguro2"
+        app:layout_constraintBottom_toTopOf="@+id/teT_intereses"
+        app:layout_constraintEnd_toEndOf="@+id/teT_intereses"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="@+id/teT_intereses" />
+
+    <TextView
+        android:id="@+id/twS_Desgravame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/seguro"
+        app:layout_constraintBottom_toTopOf="@+id/twS_incendio"
+        app:layout_constraintEnd_toEndOf="@+id/twS_incendio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/twS_incendio" />
+
+    <TextView
+        android:id="@+id/twNom_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/nombre"
+        app:layout_constraintBottom_toTopOf="@+id/twM_uf"
+        app:layout_constraintEnd_toEndOf="@+id/twM_uf"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="@+id/twM_uf" />
+
+    <TextView
+        android:id="@+id/twT_peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="136dp"
+        android:text="@string/T_Pesos"
+        app:layout_constraintBottom_toTopOf="@+id/btnSalir"
+        app:layout_constraintStart_toStartOf="@+id/twT_uf" />
+
+    <TextView
+        android:id="@+id/twBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Bienvenido"
+        app:layout_constraintEnd_toStartOf="@+id/twNom_user2"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/twNom_user2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

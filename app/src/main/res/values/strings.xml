@@ -1,0 +1,31 @@
+<resources>
+    //pagina de inicio
+    <string name="app_name">Prueba</string>
+    <string name="MiSistema">Tu Credito</string>
+    <string name="btnIngresar">Ingresar</string>
+    //pagina de Usuario
+    <string name="twBienvenida">Bienvenido a Tu Credito</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="btnIngresar2">Ingresar</string>
+    //solicitar credito
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="monto">Monto a solicitar</string>
+    <string name="cuotas">Cantidad de Cuotas (Años)</string>
+    <string name="seguro">Seguro de Desgravamen</string>
+    <string name="seguro2">Seguro Contra Incendios</string>
+    <string name="btnSolicitar">Solicitar</string>
+    <string name="Bienvenido">Bienvenido</string>
+    //resultado con detalles del Credito Solicitado
+    <string name="Titulo_resultado">Resultado</string>
+    <string name="montoUf">Monto Solicitado UF</string>
+    <string name="T_interes">Total Interes</string>
+    <string name="T_UF">Total UF</string>
+    <string name="T_Pesos">Total Pesos</string>
+    <string name="bntSalir">Salir</string>
+    //opciones de menu
+    <string name="Solicitar">Solicitar</string>
+    <string name="Detalle">Detalle</string>
+    <string name="Salir">Salir</string>
+</resources>
